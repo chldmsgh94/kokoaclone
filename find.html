@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kokoa Talk</title>
+    <title>Find - Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -29,26 +29,26 @@
             <span><i class="fas fa-search fa-lg"></i></span>
             <span>
                 <i class="fas fa-cog fa-lg"></i>
-                <span class="screen-header__dot">
+                <div class="screen-header__dot"></div>
             </span>
         </div>
     </header>
 
     <main class="main-screen">
-        <div class="find-icons">
-            <div class="find-icons__icon">
+        <div class="icon-row">
+            <div class="icon-row__icon">
                 <i class="fas fa-qrcode"></i>
                 <span>QR Code</span>
             </div>
-            <div class="find-icons__icon">
+            <div class="icon-row__icon">
                 <i class="fas fa-address-book"></i>
                 <span>Add by Contacts</span>
             </div>
-            <div class="find-icons__icon">
+            <div class="icon-row__icon">
                 <i class="fas fa-fingerprint"></i>
                 <span>Add by ID</span>
             </div>
-            <div class="find-icons__icon">
+            <div class="icon-row__icon">
                 <i class="far fa-envelope"></i>
                 <span>Invite</span>
             </div>
@@ -68,13 +68,18 @@
                     <h5 class="open-post__title">#BTS</h5>
                     <h6 class="open-post__hashtag">#bts#army#friends</h6>
                     <div class="open-post__members">
-                        <img src="#">
-                        <span class="open-post__member-count">802 members</span>
+                        <img src="https://avatars3.githubusercontent.com/u/3612017"/>
+                        <span class="open-post__members-count">802 members</span>
                         <div class="diviver"></div>
-                        <span class="open-post__member-status">Active</span>
+                        <span class="open-post__members-status">Active</span>
                     </div>
                 </div>
-                <div class="open-post__column"></div>
+                <div class="open-post__column">
+                    <div class="open-post__photo">
+                        <img src="https://avatars3.githubusercontent.com/u/3612017"/>
+                        <div class="open-post__heart__count"><i class="fas fa-heart"></i><span>326</span></div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -95,6 +100,10 @@
             </li>
         </ul>
     </nav>
+
+    <div id="no-mobile">
+        <span>Your screen is too big ㅠㅠ</span>
+    </div>
 
     <script src="https://kit.fontawesome.com/740b856c7b.js" crossorigin="anonymous"></script>
 </body>
